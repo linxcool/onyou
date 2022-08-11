@@ -1,0 +1,247 @@
+@charset 'UTF-8';
+/* ==========================================================
+ * index.css v20150602
+ * ==========================================================
+ * Copyright 鍚村お
+ *
+ * XXX css
+ * ========================================================== */
+body {
+  font-family: Microsoft Yahei;
+}
+.header {
+  position: relative;
+  width: 980px;
+  height: 60px;
+  margin: 0 auto;
+}
+.logo {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  width: 270px;
+  height: 96px;
+  background: url(../i/logo.png);
+}
+.nav {
+  float: right;
+  /* width: 405px; */
+  height: 60px;
+}
+.nav li {
+  float: left;
+  margin-left: 70px;
+  font-size: 16px;
+  line-height: 60px;
+}
+.nav li a {
+  color: #666;
+}
+.nav-active {
+  color: #5dae42!important;
+}
+.banner {
+  width: 100%;
+  height: 465px;
+  background-color: #5dae42;
+}
+.banner-img {
+  /*width: 980px;*/
+  height: 465px;
+  margin: 0 auto;
+  background-image: url(../i/bannerBg.jpg);
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+}
+.wrap {
+  width: 100%;
+  height: auto;
+  border-bottom: 1px #e6e6e6 solid;
+  background-color: #f0f0f0;
+}
+.wrap-line {
+  width: 980px;
+  height: auto;
+  margin: 0 auto;
+}
+.bf-intro {
+  float: left;
+  width: 735px;
+  height: auto;
+  min-height: 150px;
+}
+.bf-title {
+  width: auto;
+  padding-top: 50px;
+  background-image: url(../i/titleBg.png);
+  background-repeat: no-repeat;
+  background-position: 2px bottom;
+  font-size: 26px;
+  color: #5dae42;
+}
+.bf-title span {
+  padding-left: 2px;
+  font-size: 12px;
+  color: #a0a0a0;
+}
+.cont {
+  padding-top: 33px;
+  padding-right: 75px;
+  font-size: 14px;
+  color: #acacac;
+}
+.bf-register {
+  float: left;
+  width: 245px;
+  height: auto;
+  margin-bottom: 15px;
+}
+.btn-register {
+  overflow: hidden;
+  width: 245px;
+  height: 50px;
+  margin-top: 20px;
+  border-radius: 5px;
+  background-color: #5dae42;
+  font-size: 18px;
+  line-height: 50px;
+  color: #fff;
+}
+.btn-register span {
+  display: block;
+  height: 50px;
+  margin-top: -50px;
+  line-height: 50px;
+}
+.btn-register:hover {
+  height: 0;
+  padding-top: 50px;
+  background-color: #408c27;
+}
+.btn-login, .btn-game {
+  width: 245px;
+  height: 50px;
+  margin-top: 16px;
+  border: 2px #5dae42 solid;
+  border-radius: 5px;
+  font-size: 18px;
+  line-height: 50px;
+  color: #5dae42;
+}
+.footer {
+  width: 980px;
+  height: auto;
+  margin: 0 auto;
+  position: relative;
+}
+.footer .whj {
+  display: block;
+  width: 60px;
+  height: 60px;
+  background-image: url('../i/whj.png');
+  background-size: 100% 100%;
+  position: absolute;
+  top: 35px;
+  left: 240px;
+}
+.game-notice {
+  float: left;
+  width: 245px;
+  height: 100%;
+  padding-top: 35px;
+  padding-bottom: 42px;
+}
+.notice-title {
+  font-size: 16px;
+  color: #666;
+}
+.notice-cnt {
+  font-size: 14px;
+  color: #a9a9a9;
+}
+.footer-main {
+  float: right;
+  width: 650px;
+  height: 100%;
+  padding-top: 40px;
+}
+.main-list {
+  width: 650px;
+  height: auto;
+  padding-bottom: 35px;
+  border-bottom: 1px #ccc solid;
+}
+.age {
+  float: left;
+  width: 174px;
+  height: 60px;
+  padding-left: 60px;
+  background-image: url(../i/footerIcon1.png);
+  background-repeat: no-repeat;
+  background-position: left;
+  font-size: 14px;
+  color: #989898;
+}
+.age span {
+  display: block;
+  height: 20px;
+  margin-top: 10px;
+  font-size: 16px;
+  line-height: 20px;
+}
+.parent {
+  float: left;
+  width: 195px;
+  height: 60px;
+  padding-left: 60px;
+  background-image: url(../i/footerIcon2.png);
+  background-repeat: no-repeat;
+  background-position: left;
+  font-size: 16px;
+  line-height: 60px;
+  color: #989898;
+}
+.service {
+  float: left;
+  width: 281px;
+  height: 60px;
+  padding-left: 60px;
+  background-image: url(../i/footerIcon3.png);
+  background-repeat: no-repeat;
+  background-position: left;
+  font-family: SimSun;
+  font-size: 16px;
+  font-weight: 900;
+  color: #5dae42;
+  white-space: nowrap;
+}
+.service span {
+  display: block;
+  height: 20px;
+  margin-top: 10px;
+  font-family: Microsoft Yahei;
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 20px;
+  color: #838383;
+}
+.copy {
+  padding-top: 12px;
+  font-size: 14px;
+  color: #777;
+  text-align: right;
+}
+
+.report {
+  float: left;
+  width: 195px;
+  height: 60px;
+  padding-left: 60px;
+  background-image: url(../i/footerIcon4.png);
+  background-repeat: no-repeat;
+  background-position: left;
+  font-size: 16px;
+  line-height: 60px;
+  color: #989898;
+}
