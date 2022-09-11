@@ -15,14 +15,14 @@ body {
   height: 60px;
   margin: 0 auto;
 }
-.logo {
+.logo img{
   position: absolute;
-  top: 0;
+  top: 10px;
   left: 0;
   z-index: 1;
-  width: 270px;
-  height: 96px;
-  background: url(../i/logo.png);
+  width:auto;
+  height: 50px;
+  overflow:hidden;
 }
 .nav {
   float: right;
@@ -39,16 +39,16 @@ body {
   color: #666;
 }
 .nav-active {
-  color: #5dae42!important;
+  color: #9877fc!important;
 }
 .banner {
   width: 100%;
-  height: 465px;
-  background-color: #5dae42;
+  height: 396px;
+  background-color: #9877fc;
 }
 .banner-img {
   /*width: 980px;*/
-  height: 465px;
+  /*height: 396px;*/
   margin: 0 auto;
   background-image: url(../i/bannerBg.jpg);
   background-position: 50% 50%;
@@ -78,7 +78,7 @@ body {
   background-repeat: no-repeat;
   background-position: 2px bottom;
   font-size: 26px;
-  color: #5dae42;
+  color: #9877fc;
 }
 .bf-title span {
   padding-left: 2px;
@@ -103,7 +103,7 @@ body {
   height: 50px;
   margin-top: 20px;
   border-radius: 5px;
-  background-color: #5dae42;
+  background-color: #9877fc;
   font-size: 18px;
   line-height: 50px;
   color: #fff;
@@ -123,11 +123,11 @@ body {
   width: 245px;
   height: 50px;
   margin-top: 16px;
-  border: 2px #5dae42 solid;
+  border: 2px #9877fc solid;
   border-radius: 5px;
   font-size: 18px;
   line-height: 50px;
-  color: #5dae42;
+  color: #9877fc;
 }
 .footer {
   width: 980px;
@@ -213,7 +213,7 @@ body {
   font-family: SimSun;
   font-size: 16px;
   font-weight: 900;
-  color: #5dae42;
+  color: #9877fc;
   white-space: nowrap;
 }
 .service span {
