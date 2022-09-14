@@ -39,12 +39,12 @@ body {
   color: #666;
 }
 .nav-active {
-  color: #9877fc!important;
+  color: #5dae42!important;
 }
 .banner {
   width: 100%;
   height: 396px;
-  background-color: #9877fc;
+  background-color: #5dae42;
 }
 .banner-img {
   /*width: 980px;*/
@@ -78,7 +78,7 @@ body {
   background-repeat: no-repeat;
   background-position: 2px bottom;
   font-size: 26px;
-  color: #9877fc;
+  color: #5dae42;
 }
 .bf-title span {
   padding-left: 2px;
@@ -103,7 +103,7 @@ body {
   height: 50px;
   margin-top: 20px;
   border-radius: 5px;
-  background-color: #9877fc;
+  background-color: #5dae42;
   font-size: 18px;
   line-height: 50px;
   color: #fff;
@@ -123,11 +123,11 @@ body {
   width: 245px;
   height: 50px;
   margin-top: 16px;
-  border: 2px #9877fc solid;
+  border: 2px #5dae42 solid;
   border-radius: 5px;
   font-size: 18px;
   line-height: 50px;
-  color: #9877fc;
+  color: #5dae42;
 }
 .footer {
   width: 980px;
@@ -213,7 +213,7 @@ body {
   font-family: SimSun;
   font-size: 16px;
   font-weight: 900;
-  color: #9877fc;
+  color: #5dae42;
   white-space: nowrap;
 }
 .service span {
