@@ -1,0 +1,25 @@
+.wrap{
+    min-height: 1000px;
+    background-color: #f0f0f0;
+    display: block;
+}
+.line{
+  height: 1px;
+  background-color: #5dae42;
+}
+.text-wrap{
+  width: 960px;
+  margin: 0 auto;
+  background-color: #ffffff;
+  height: 100%;
+  font-family: 'Microsoft Yahei';
+  padding: 0 50px;
+  padding-top: 40px;
+  padding-bottom: 50px;
+}
+h1{
+  line-height: 50px;
+  text-align: center;
+  width: 100%;
+  font-weight: bold
+}

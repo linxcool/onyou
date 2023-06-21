@@ -1,5 +1,14 @@
 {
   "projects": {
     "default": "onyou-d3894"
+  },
+  "targets": {
+    "onyou-d3894": {
+      "hosting": {
+        "onyou": [
+          "oygames"
+        ]
+      }
+    }
   }
 }
